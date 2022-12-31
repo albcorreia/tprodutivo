@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+   }
+   button {
+    font-family: sans-serif;
+   }
+   input {
+    font-family: sans-serif;
+   }
+.container {
+   padding: 20px;
+   text-align: center;
+}
+.historicos {
+    text-align: left;
+}
+.painelinicio, .painelfim, .historicos {
+    display: none;
+}
+.act {
+    font-size: 30px;
+   padding: 0px 0px 5px;
+}
+.horainicio {
+    margin-top: 20px;
+}
+.definirtarefa {
+    padding: 20px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+.infoinfo {
+    width: 590px;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px #ccc;
+}
+.tarefainicio, .tarefafim {
+   margin-bottom: 5px;
+}
+.mostrahora, .mostrahfim, .atividadeinicio, .atividadefim, #contributodev  {
+    margin-top: 5px;
+}
+.container input {
+    padding: 7px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 2px;
+    border: 3px solid rgb(44, 44, 245);
+}
+.container button {
+    border: none;
+    padding: 10px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    background-color: rgb(44, 44, 245);
+}
+.guardar:hover, .horainicio:hover, .horafim:hover {
+    background: red;
+}
+.agrupamento {
+    width: 590px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px #ccc;
+}
+.diz {
+    margin-bottom: 10px;
+}
+.temporelogio {
+    margin-top: 3px;
+}
+.infoinfo, .infofooter {
+    margin-bottom: 30px;
+}
+.historicoatividade {
+    padding: 5px;
+    font-size: 1em; 
+    text-align: left;
+    margin-bottom: 20px;
+    border-left: 5px solid rgb(44, 44, 245);
+}
+.create-by {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.create-by a {
+    padding: 3px;
+    text-decoration: none; 
+    color: rgb(44, 44, 245);
+    border-bottom: 1px solid #ccc;
+}
+.create-by a:hover {
+    color: white;
+    border-radius: 2px;
+    background: rgb(44, 44, 245);
+}
+.iconsvg {
+    display: none;
+    margin-left: 235px;
+    position: absolute;
+}
+.iconsvg img {
+    position: relative;
+    top: 1px;
+}
+.limpar {
+  margin-left: 10px;
+  cursor: pointer;
+  color: white;
+}
+.mostramostra {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.colaboracoes, .colaboracoes label{
+    margin-top: 10px;
+}
+#contributodev a {
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(255, 187, 0);
+}
+#contributodev a:hover {
+    border-radius: 2px;
+    background: rgb(44, 44, 245);
+}
+.infofooter {
+    margin-top: 60px;
+    text-align: center;
+}
+@media (max-width: 635px) {
+    .infoinfo, .agrupamento, .definir {
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+    }
+    .guardar {
+        width: 100%;
+        display: block;
+        margin-top: 5px;
+    }
+    .mostramostra {
+        margin-top: 10px;
+    }
+    button {
+        padding: 0px;
+    }
+    .remove {
+       display: none;
+    }
+}

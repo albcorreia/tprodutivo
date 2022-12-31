@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T Produtivo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<section class="container">
+<div class="agrupamento">
+    <img src="imagens/fluxo.png" alt="imagem" height="200px">
+    <h1 class="act">Que tal?</h1> 
+    <p>Saberes o quanto és produtivo.</p>
+    <form action="" class="definirtarefa">
+        <input class="definir" type="text" placeholder="Definir atividade"> 
+        <button type="submit" class="guardar">Guardar</button> 
+    </form>
+    </div>
+    <div class="acoes">
+        <p class="diz"></p>
+        <p style="color: rgb(156, 156, 156);" class="tempo">Tempo</p>
+        <p class="temporelogio">00:00:00</p>
+    </div>
+    <div class="painelinicio">
+    <button class="horainicio">Começar</button> 
+    <div class="infoinfo" style="padding: 10px;">
+        <p class="tarefainicio"></p>
+        <p class="remove"><label class="iconsvg"><img src="imagens/relogio.svg" alt="icone"></label></p>
+        <label class="mostrahora"></label>
+        <p class="atividadeinicio"></p>
+    </div> 
+    </div>
+    <div class="painelfim">
+    <button class="horafim">Terminar</button>
+    <div class="infoinfo" style="padding: 10px;"> 
+        <p class="tarefafim"></p>
+        <p class="atividadefim"></p> 
+    </div>  
+    </div>
+    <button class="mostramostra" style="background: rgb(255, 187, 0); color: black;">Mostrar atividades</button>
+    <div class="historicos">
+        <p class="historicoatividade">Histórico de atividades</p>
+        <p class="minhasatividades"></p>
+    </div>
+</section>
+<footer class="infofooter"> 
+    <label>Criador</label>
+    <p class="create-by"><a href="https://web.facebook.com/olusso.correia/" target="_blank">Alberto Correia</a></p>
+        <div class="colaboracoes">
+        <label>Colaboradores</label>
+        <!--Depois de colaborares, adicione seu nome dentro do link e o seu canal social preferencial dentro do href-->
+        <p id="contributodev"><a href="#">Nenhum</a></p>
+    </div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
